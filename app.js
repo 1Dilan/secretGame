@@ -29,7 +29,7 @@ assignText
 let secretNumber =0; // Genera un número aleatorio entre 1 y 10
 let attempts = 0;
 let listaNumerosSorteados = []; // Arreglo de números aleatorios
-let numeroMAximo = 3; // Número máximo para el juego
+let numeroMAximo = 10; // Número máximo para el juego
 function verifyAttempt() {
    let numberUser = parseInt(document.getElementById('userValue').value); // Selecciona el valor del input con id "userValue"
    //  console.log(numberUser); // Muestra el valor del input en la consola
